@@ -6,9 +6,9 @@ import { notFound } from "next/navigation";
 export const dynamicParams = false;
 
 type Props = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
