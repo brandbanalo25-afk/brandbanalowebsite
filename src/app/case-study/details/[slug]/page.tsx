@@ -49,7 +49,7 @@ export default async function CaseStudyDetailsPage({ params }: Props) {
 
   return (
     <main>
-      <CaseStudyDetailsSections 
+      <CaseStudyDetailsSections
         caseStudy={caseStudy}
         prevCaseStudy={prevCaseStudy}
         nextCaseStudy={nextCaseStudy}
