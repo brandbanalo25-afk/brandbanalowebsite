@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "convert-webp": "node scripts/convert-to-webp.mjs",
-    "php": "php -S localhost:8000 -t public"
-  },
+  "dev": "next dev --webpack",
+  "build": "next build --webpack",
+  "start": "next start",
+  "lint": "eslint",
+  "convert-webp": "node scripts/convert-to-webp.mjs",
+  "php": "php -S localhost:8000 -t public"
+},
   "dependencies": {
     "framer-motion": "^12.38.0",
     "gsap": "^3.14.2",
